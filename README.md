@@ -29,8 +29,8 @@ style="padding-right:10px;" />
 <img align="left" alt="GCP" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" style="padding-right:10px;" />
 <br /><br /><br />
 
-[![Piyush's GitHub stats](https://github-readme-stats.vercel.app/api?username=piyu37&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Piyush's GitHub stats](https://github-readme-stats.vercel.app/api?username=piyu37&show_icons=true&theme=radical)](https://github.com/piyu37)
 
 <br /><br />
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=piyu37&layout=donut-vertical&theme=radical)](https://github.com/mamta925)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=piyu37&layout=donut-vertical&theme=radical)](https://github.com/piyu37)
