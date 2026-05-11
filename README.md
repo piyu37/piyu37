@@ -2,7 +2,7 @@
 [![Social question and answer](images/social/quora.png)](https://www.quora.com/profile/Piyush-Tiwari-96)
 [![Learn Build and Share](images/social/stackoverflow.png)](https://stackoverflow.com/users/10369815/piyush)
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=F72585&center=true&vCenter=true&width=500&lines=Building+AI-integrated+tools+in+Go;Mastering+cloud-native+infrastructure;Crafting+code+symphonies" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=F72585&vCenter=true&width=500&lines=Building+AI-integrated+tools+in+Go;Mastering+cloud-native+infrastructure;Crafting+code+symphonies" alt="Typing SVG" /></a>
 
 # Ahoy there! 🏴‍☠️ I'm Piyush, charting my unique course through the digital seas 🌊🗺️
 
@@ -33,6 +33,15 @@
 <br /><br /><br />
 
 ### GitHub Activity:
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/piyu37/piyu37/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/piyu37/piyu37/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/piyu37/piyu37/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+<br />
 
 <div align="center">
   <a href="https://github.com/piyu37">
