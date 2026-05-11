@@ -4,17 +4,16 @@
 
 # Ahoy there! 🏴‍☠️ I'm Piyush, charting my unique course through the digital seas 🌊🗺️
 
--   🥅 2023 Goals: Crafting code symphonies
--   ⚡ Fun fact: Code by day🧑‍💻, movies by night 🎥 —my dual passions 
--   I am passionate about technology & enjoy learning new things.🌏 </br></br>
+-   🥅 **2026 Goals:** Building AI-integrated tools in Go, optimizing algorithms, and mastering cloud-native infrastructure.
+-   ⚡ **Fun fact:** Code by day 🧑‍💻, movies, animes by night 🎥 —my dual passions.
+-   🌱 I am passionate about technology & enjoy learning new things. 🌏 
+<br/>
 
 ### Languages and Tools:
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Go" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" 
-style="padding-right:10px;" />
-<img align="left" alt="Python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
-style="padding-right:10px;" />
+<img align="left" alt="Go" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" style="padding-right:10px;" />
+<img align="left" alt="Python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;" />
 <img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Typescript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" style="padding-right:10px;" />
 <img align="left" alt="React" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />
@@ -25,12 +24,25 @@ style="padding-right:10px;" />
 <img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Kubernetes" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" style="padding-right:10px;" />
 <img align="left" alt="Docker" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Kafka" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original-wordmark.svg" style="padding-right:10px;" />
+<img align="left" alt="Helm" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg" style="padding-right:10px;" />
+<img align="left" alt="ArgoCD" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Terraform" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" style="padding-right:10px;" />
 <img align="left" alt="GCP" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" style="padding-right:10px;" />
 <br /><br /><br />
 
-[![Piyush's GitHub stats](https://github-readme-stats.vercel.app/api?username=piyu37&show_icons=true&theme=radical)](https://github.com/piyu37)
+### GitHub Activity:
 
-<br /><br />
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=piyu37&layout=donut-vertical&theme=radical)](https://github.com/piyu37)
+<div align="center">
+  <a href="https://github.com/piyu37">
+    <img src="https://github-readme-stats.vercel.app/api?username=piyu37&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="Piyush's GitHub stats" />
+  </a>
+  <a href="https://github.com/piyu37">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=piyu37&theme=radical&hide_border=true" alt="GitHub Streak" />
+  </a>
+</div>
+<br />
+<div align="center">
+  <a href="https://github.com/piyu37">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=piyu37&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+  </a>
+</div>
