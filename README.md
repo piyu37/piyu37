@@ -2,6 +2,8 @@
 [![Social question and answer](images/social/quora.png)](https://www.quora.com/profile/Piyush-Tiwari-96)
 [![Learn Build and Share](images/social/stackoverflow.png)](https://stackoverflow.com/users/10369815/piyush)
 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=F72585&center=true&vCenter=true&width=500&lines=Building+AI-integrated+tools+in+Go;Mastering+cloud-native+infrastructure;Crafting+code+symphonies" alt="Typing SVG" /></a>
+
 # Ahoy there! 🏴‍☠️ I'm Piyush, charting my unique course through the digital seas 🌊🗺️
 
 -   🥅 **2026 Goals:** Building AI-integrated tools in Go, optimizing algorithms, and mastering cloud-native infrastructure.
@@ -34,7 +36,7 @@
 
 <div align="center">
   <a href="https://github.com/piyu37">
-    <img src="https://github-readme-stats.vercel.app/api?username=piyu37&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="Piyush's GitHub stats" />
+    <img src="https://github-readme-stats-rose-nine-23.vercel.app/api?username=piyu37&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&hide_rank=true" alt="Piyush's GitHub stats" />
   </a>
   <a href="https://github.com/piyu37">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=piyu37&theme=radical&hide_border=true" alt="GitHub Streak" />
@@ -43,6 +45,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/piyu37">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=piyu37&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+    <img src="https://github-readme-stats-rose-nine-23.vercel.app/api/top-langs/?username=piyu37&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
   </a>
 </div>
