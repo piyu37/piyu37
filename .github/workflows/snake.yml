@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Profile Assets
 
 on:
   # Run automatically every 12 hours
@@ -18,9 +18,12 @@ jobs:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    # In-depth language analysis in the metrics step can take a while
+    timeout-minutes: 30
 
     steps:
+      - uses: actions/checkout@v4
+
       # Generates the snake animation SVG files
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
@@ -30,25 +33,59 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Generates the stats cards with this repo's token, avoiding the
-      # rate limits of shared public github-readme-stats instances
+      # Generates the stats cards here instead of using shared public
+      # github-readme-stats instances, which are often rate limited.
+      # The stats card needs the METRICS_TOKEN PAT: with the repo's
+      # GITHUB_TOKEN it fails with "Resource not accessible by integration"
       - name: Generate github-stats.svg
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=piyu37&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&hide_rank=true
           path: dist/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           fail_on_error: true
 
       - name: Generate top-langs.svg
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=piyu37&layout=compact&theme=radical&hide_border=true
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
+
+      - name: Generate activity-graph.svg
+        run: node .github/scripts/activity-graph.mjs piyu37 dist/activity-graph.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Needs a personal access token stored as the METRICS_TOKEN secret;
+      # the repo's GITHUB_TOKEN cannot read the user-level data it uses
+      - name: Generate metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: piyu37
+          filename: metrics.svg
+          output_action: none
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, percentage
+          plugin_languages_limit: 8
+
+      - name: Copy metrics.svg to dist
+        run: sudo cp /metrics_renders/metrics.svg dist/metrics.svg
 
       # Pushes the generated SVGs to an isolated 'output' branch
       - name: Push to output branch
