@@ -69,5 +69,5 @@
 ### Coding Insights:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/metrics.svg" alt="Piyush's coding metrics: activity calendar, habits, achievements and languages" />
+  <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/metrics.svg" alt="Piyush's coding metrics: languages and contributions calendar" />
 </div>
