@@ -45,6 +45,13 @@
 
 <div align="center">
   <a href="https://github.com/piyu37">
+    <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/activity-graph.svg" alt="Piyush's contribution graph" width="100%" />
+  </a>
+</div>
+<br />
+
+<div align="center">
+  <a href="https://github.com/piyu37">
     <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/github-stats.svg" alt="Piyush's GitHub stats" />
   </a>
   <a href="https://github.com/piyu37">
@@ -56,4 +63,11 @@
   <a href="https://github.com/piyu37">
     <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/top-langs.svg" alt="Top Langs" />
   </a>
+</div>
+<br />
+
+### Coding Insights:
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/metrics.svg" alt="Piyush's coding metrics: activity calendar, habits, achievements and languages" />
 </div>
