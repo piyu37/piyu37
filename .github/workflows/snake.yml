@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # Generates the snake animation SVG files
       - name: Generate github-contribution-grid-snake.svg
@@ -61,7 +61,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Needs a personal access token stored as the METRICS_TOKEN secret;
-      # the repo's GITHUB_TOKEN cannot read the user-level data it uses
+      # the repo's GITHUB_TOKEN cannot read the user-level data it uses.
+      # The habits and achievements plugins are left out: metrics is no
+      # longer maintained and both now fail against the GitHub API
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
@@ -73,23 +75,18 @@ jobs:
           config_timezone: Asia/Kolkata
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: B
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: lines, percentage
           plugin_languages_limit: 8
+          plugins_errors_fatal: yes
 
       - name: Copy metrics.svg to dist
         run: sudo cp /metrics_renders/metrics.svg dist/metrics.svg
 
       # Pushes the generated SVGs to an isolated 'output' branch
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
