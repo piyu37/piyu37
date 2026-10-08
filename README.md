@@ -45,7 +45,7 @@
 
 <div align="center">
   <a href="https://github.com/piyu37">
-    <img src="https://github-readme-stats-rose-nine-23.vercel.app/api?username=piyu37&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&hide_rank=true" alt="Piyush's GitHub stats" />
+    <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/github-stats.svg" alt="Piyush's GitHub stats" />
   </a>
   <a href="https://github.com/piyu37">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=piyu37&theme=radical&hide_border=true" alt="GitHub Streak" />
@@ -54,6 +54,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/piyu37">
-    <img src="https://github-readme-stats-rose-nine-23.vercel.app/api/top-langs/?username=piyu37&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+    <img src="https://raw.githubusercontent.com/piyu37/piyu37/output/top-langs.svg" alt="Top Langs" />
   </a>
 </div>

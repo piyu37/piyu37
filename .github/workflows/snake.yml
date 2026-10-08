@@ -30,6 +30,26 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # Generates the stats cards with this repo's token, avoiding the
+      # rate limits of shared public github-readme-stats instances
+      - name: Generate github-stats.svg
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=piyu37&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&hide_rank=true
+          path: dist/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top-langs.svg
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=piyu37&layout=compact&theme=radical&hide_border=true
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
       # Pushes the generated SVGs to an isolated 'output' branch
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
